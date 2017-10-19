@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+      <head>
+        <title>ScalaTest Suite com.evolutiongaming.tests.blackjack.PreGameSpec Results</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="Expires" content="-1"/>
+        <meta http-equiv="Pragma" content="no-cache"/>
+        <link href="css/styles.css" rel="stylesheet"/>
+        
+        <script type="text/javascript">
+          function toggleDetails(contentId, linkId) {
+  var ele = document.getElementById(contentId);
+  var text = document.getElementById(linkId);
+  if(ele.style.display == "block") {
+    ele.style.display = "none";
+    text.innerHTML = "(Show Details)";
+  }
+  else {
+    ele.style.display = "block";
+    text.innerHTML = "(Hide Details)";
+  }
+}
+function hideOpenInNewTabIfRequired() {
+  if (top === self) { document.getElementById('printlink').style.display = 'none'; }
+}
+
+        </script>
+      </head>
+      <body class="specification">
+        <div id="suite_header_name">PreGameSpec</div>
+        <div id="suite_header_statistic_failed">
+          Tests: total 6, succeeded 4, failed 2, canceled 0, ignored 0, pending 0
+        </div>
+        <div id="27b043f6-58b8-4914-8f7d-11f78dc83f17" class="scope" style="margin-left: 0px;">
+      Blackjack table page
+    </div><div id="416ab997-7db2-4b34-ba09-4acbbd9326e2" class="test_passed" style="margin-left: 0px;">
+      <dl>
+        <dt>must allow player to see his balance, bet ranges, table, its limits and currency</dt>
+      </dl>
+    </div><div id="723c49f4-7abb-48ce-a6d7-7db77b1d0f04" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Given player has joined the Blackjack table with custom bet limits </dt>
+      </dl>
+    </div><div id="ef201cae-06d7-4af0-aff3-45a4a60d8363" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And Game page is open </dt>
+      </dl>
+    </div><div id="cd4a41dd-7026-4421-8239-63ccdaacfee1" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then table must have correct name </dt>
+      </dl>
+    </div><div id="ab359c2c-c89e-4b73-a3d6-e62bb7b4576a" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And table must have proper currency and limits </dt>
+      </dl>
+    </div><div id="297ccbde-fec9-4246-bd97-31a753a3cca3" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And player's balance must have correct amount and currency </dt>
+      </dl>
+    </div><div id="dcf61915-f4b5-47b0-a274-7bcf984fe8d3" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And traffic light must invite player to take a seat in order to participate </dt>
+      </dl>
+    </div><div id="b677d638-93be-4924-aa98-f4b26261ad99" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player hovers the bets board </dt>
+      </dl>
+    </div><div id="7e3dcf95-d06f-4807-bb86-de1c68f72166" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then all bet limits must correspond to the table configuration </dt>
+      </dl>
+    </div><div id="4712ce64-4751-4a26-9edc-45f19d77028a" class="test_passed" style="margin-left: 0px;">
+      <dl>
+        <dt>must check VIP limits and chips stack when the player belongs to the group</dt>
+      </dl>
+    </div><div id="1590be64-3327-42b1-b7f4-c8010b539a3d" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Given VIP player has joined the Blackjack table with custom bet limits </dt>
+      </dl>
+    </div><div id="4f9c759a-7ac2-49f9-963e-c633687ce487" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then table must have proper currency and limits </dt>
+      </dl>
+    </div><div id="b2a428c7-2fd1-4655-8d4d-6fcddecab6cd" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And bets board must have bet limits that correspond to the VIP or table configuration </dt>
+      </dl>
+    </div><div id="5434ff22-6e46-4749-9824-097b74757f32" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And chips should be calculated according to the VIP and table settings </dt>
+      </dl>
+    </div><div id="8ee3ee9b-3cee-4615-b7dc-9b8f8bb6f959" class="test_failed" style="margin-left: 0px;">
+      <dl>
+        <dt>must check dynamic limits and chips stack when the player belongs to the group *** FAILED ***</dt>
+      </dl>
+      <div class="detailstoggle">
+      <a id="e9c79d66-07d8-4210-9e03-aefdd7dc9270" href="javascript:toggleDetails('d534aec0-368b-4fae-851c-18797b80369a', 'e9c79d66-07d8-4210-9e03-aefdd7dc9270');">(Show Details)</a>
+      </div>
+      <div id="d534aec0-368b-4fae-851c-18797b80369a" style="display: none">
+        <table>
+          <tr valign="top">
+              <td align="left"><span class="label">Message:</span></td>
+              <td align="left"><span>The code passed to eventually never returned normally. Attempted 23 times over 21.074177653000003 seconds. Last failure message: (5,000,250,000) was not equal to (5,001,250,000).</span></td>
+            </tr>
+          <tr valign="top"><td align="left"><span class="label">Line:</span></td><td align="left"><span>(PreGameSpec.scala:163)</span></td></tr>
+          <tr valign="top"><td align="right"><span class="label">Exception:</span></td><td align="left">org.scalatest.exceptions.TestFailedDueToTimeoutException</td></tr>
+        </table>
+        <table>
+          <tr valign="top"><td align="left" colspan="2">
+            <div class="gray">org.scalatest.concurrent.Eventually$class.tryTryAgain$1(Eventually.scala:421)</div><div class="gray">org.scalatest.concurrent.Eventually$class.eventually(Eventually.scala:439)</div><div class="gray">com.evolutiongaming.selenium.FunctionalSpec.eventually(FunctionalSpec.scala:15)</div>
+            <div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$21$$anonfun$apply$22.apply(PreGameSpec.scala:163)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$21$$anonfun$apply$22.apply(PreGameSpec.scala:148)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture$$anonfun$foreach$1.apply(PlayerSessionFixture.scala:22)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture$$anonfun$foreach$1.apply(PlayerSessionFixture.scala:18)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture$SessionFixture.foreach(PlayerSessionFixture.scala:25)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture.foreach(PlayerSessionFixture.scala:18)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$21.apply(PreGameSpec.scala:148)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$21.apply(PreGameSpec.scala:144)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$2.apply(VipGroupsFixture.scala:43)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$2.apply(VipGroupsFixture.scala:42)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$GroupFixture.foreach(VipGroupsFixture.scala:45)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(VipGroupsFixture.scala:42)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(VipGroupsFixture.scala:41)</div><div>com.evolutiongaming.fixtures.ApiClientFixture.foreach(ApiClientFixture.scala:14)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$$anonfun$foreach$1.apply(VipGroupsFixture.scala:41)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$$anonfun$foreach$1.apply(VipGroupsFixture.scala:40)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.UserFixture.foreach(UserFixture.scala:30)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture.foreach(VipGroupsFixture.scala:40)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20.apply(PreGameSpec.scala:144)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20.apply(PreGameSpec.scala:143)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$4.apply(GameTableFixture.scala:30)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$4.apply(GameTableFixture.scala:29)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.GameTableFixture$TableFixture.foreach(GameTableFixture.scala:35)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(GameTableFixture.scala:29)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(GameTableFixture.scala:21)</div><div>com.evolutiongaming.fixtures.ApiClientFixture.foreach(ApiClientFixture.scala:14)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1.apply(GameTableFixture.scala:21)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1.apply(GameTableFixture.scala:20)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.UserFixture.foreach(UserFixture.scala:30)</div><div>com.evolutiongaming.fixtures.GameTableFixture.foreach(GameTableFixture.scala:20)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19.apply(PreGameSpec.scala:143)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19.apply(PreGameSpec.scala:137)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.BlackjackGameConfigFixture.foreach(BlackjackGameConfigFixture.scala:10)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18.apply(PreGameSpec.scala:137)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18.apply(PreGameSpec.scala:136)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$2.apply(PlayerFixture.scala:28)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$2.apply(PlayerFixture.scala:26)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.PlayerFixture$CasinoPlayerFixture.foreach(PlayerFixture.scala:32)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(PlayerFixture.scala:26)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(PlayerFixture.scala:25)</div><div>com.evolutiongaming.fixtures.ApiClientFixture.foreach(ApiClientFixture.scala:14)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1.apply(PlayerFixture.scala:25)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1.apply(PlayerFixture.scala:24)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.UserFixture.foreach(UserFixture.scala:30)</div><div>com.evolutiongaming.fixtures.PlayerFixture.foreach(PlayerFixture.scala:24)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9.apply(PreGameSpec.scala:136)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9.apply(PreGameSpec.scala:135)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.CasinoSettingsFixture.foreach(CasinoSettingsFixture.scala:16)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3.apply$mcV$sp(PreGameSpec.scala:135)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3.apply(PreGameSpec.scala:132)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3.apply(PreGameSpec.scala:132)</div><div>org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)</div><div>org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)</div><div>org.scalatest.Transformer.apply(Transformer.scala:22)</div><div>org.scalatest.Transformer.apply(Transformer.scala:20)</div><div>org.scalatest.WordSpecLike$$anon$1.apply(WordSpecLike.scala:1078)</div><div>org.scalatest.TestSuite$class.withFixture(TestSuite.scala:196)</div><div>com.evolutiongaming.selenium.FunctionalSpec.withFixture(FunctionalSpec.scala:37)</div><div>org.scalatest.WordSpecLike$class.invokeWithFixture$1(WordSpecLike.scala:1075)</div><div>org.scalatest.WordSpecLike$$anonfun$runTest$1.apply(WordSpecLike.scala:1088)</div><div>org.scalatest.WordSpecLike$$anonfun$runTest$1.apply(WordSpecLike.scala:1088)</div><div>org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)</div><div>org.scalatest.WordSpecLike$class.runTest(WordSpecLike.scala:1088)</div><div>org.scalatest.WordSpec.runTest(WordSpec.scala:1881)</div><div>org.scalatest.WordSpecLike$$anonfun$runTests$1.apply(WordSpecLike.scala:1147)</div><div>org.scalatest.WordSpecLike$$anonfun$runTests$1.apply(WordSpecLike.scala:1147)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:396)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:384)</div><div>scala.collection.immutable.List.foreach(List.scala:392)</div><div>org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)</div><div>org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:373)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:410)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:384)</div><div>scala.collection.immutable.List.foreach(List.scala:392)</div><div>org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)</div><div>org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:379)</div><div>org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)</div><div>org.scalatest.WordSpecLike$class.runTests(WordSpecLike.scala:1147)</div><div>org.scalatest.WordSpec.runTests(WordSpec.scala:1881)</div><div>org.scalatest.Suite$class.run(Suite.scala:1147)</div><div>org.scalatest.WordSpec.org$scalatest$WordSpecLike$$super$run(WordSpec.scala:1881)</div><div>org.scalatest.WordSpecLike$$anonfun$run$1.apply(WordSpecLike.scala:1192)</div><div>org.scalatest.WordSpecLike$$anonfun$run$1.apply(WordSpecLike.scala:1192)</div><div>org.scalatest.SuperEngine.runImpl(Engine.scala:521)</div><div>org.scalatest.WordSpecLike$class.run(WordSpecLike.scala:1192)</div><div>com.evolutiongaming.selenium.FunctionalSpec.org$scalatest$BeforeAndAfterAll$$super$run(FunctionalSpec.scala:15)</div><div>org.scalatest.BeforeAndAfterAll$class.liftedTree1$1(BeforeAndAfterAll.scala:213)</div><div>org.scalatest.BeforeAndAfterAll$class.run(BeforeAndAfterAll.scala:210)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec.com$evolutiongaming$selenium$OneBrowserPerSuite$$super$run(PreGameSpec.scala:17)</div><div>com.evolutiongaming.selenium.OneBrowserPerSuite$class.run(OneBrowserPerSuite.scala:13)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec.run(PreGameSpec.scala:17)</div><div>org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)</div><div>org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:480)</div><div>sbt.TestRunner.runTest$1(TestFramework.scala:76)</div><div>sbt.TestRunner.run(TestFramework.scala:85)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)</div><div>sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:185)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)</div><div>sbt.TestFunction.apply(TestFramework.scala:207)</div><div>sbt.Tests$$anonfun$9.apply(Tests.scala:216)</div><div>sbt.Tests$$anonfun$9.apply(Tests.scala:216)</div><div>sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)</div><div>sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)</div><div>sbt.std.Transform$$anon$4.work(System.scala:63)</div><div>sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)</div><div>sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)</div><div>sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)</div><div>sbt.Execute.work(Execute.scala:237)</div><div>sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)</div><div>sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)</div><div>sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)</div><div>sbt.CompletionService$$anon$2.call(CompletionService.scala:28)</div><div>java.util.concurrent.FutureTask.run(FutureTask.java:266)</div><div>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</div><div>java.util.concurrent.FutureTask.run(FutureTask.java:266)</div><div>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</div><div>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</div><div>java.lang.Thread.run(Thread.java:748)</div>
+            </td>
+          </tr>
+        </table>
+        <table>
+          <tr valign="top">
+            <td align="right"><span class="label">Cause:</span></td>
+            <td align="left">org.scalatest.exceptions.TestFailedException</td>
+          </tr>
+          <tr valign="top">
+            <td align="right"><span class="label">Message:</span></td>
+            <td align="left">
+              <span>The code passed to eventually never returned normally. Attempted 23 times over 21.074177653000003 seconds. Last failure message: (5,000,250,000) was not equal to (5,001,250,000).</span>
+            </td>
+          </tr>
+        </table><table>
+          <tr valign="top">
+            <td align="left" colspan="2"><div>org.scalatest.MatchersHelper$.indicateFailure(MatchersHelper.scala:340)</div><div>org.scalatest.MustMatchers$MustMethodHelper$.mustMatcher(MustMatchers.scala:6668)</div><div>org.scalatest.MustMatchers$AnyMustWrapper.must(MustMatchers.scala:6704)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$21$$anonfun$apply$22$$anonfun$apply$24.apply(PreGameSpec.scala:164)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$21$$anonfun$apply$22$$anonfun$apply$24.apply(PreGameSpec.scala:163)</div><div>org.scalatest.concurrent.Eventually$class.makeAValiantAttempt$1(Eventually.scala:395)</div><div>org.scalatest.concurrent.Eventually$class.tryTryAgain$1(Eventually.scala:409)</div><div>org.scalatest.concurrent.Eventually$class.eventually(Eventually.scala:439)</div><div>com.evolutiongaming.selenium.FunctionalSpec.eventually(FunctionalSpec.scala:15)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$21$$anonfun$apply$22.apply(PreGameSpec.scala:163)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$21$$anonfun$apply$22.apply(PreGameSpec.scala:148)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture$$anonfun$foreach$1.apply(PlayerSessionFixture.scala:22)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture$$anonfun$foreach$1.apply(PlayerSessionFixture.scala:18)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture$SessionFixture.foreach(PlayerSessionFixture.scala:25)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture.foreach(PlayerSessionFixture.scala:18)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$21.apply(PreGameSpec.scala:148)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$21.apply(PreGameSpec.scala:144)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$2.apply(VipGroupsFixture.scala:43)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$2.apply(VipGroupsFixture.scala:42)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$GroupFixture.foreach(VipGroupsFixture.scala:45)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(VipGroupsFixture.scala:42)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(VipGroupsFixture.scala:41)</div><div>com.evolutiongaming.fixtures.ApiClientFixture.foreach(ApiClientFixture.scala:14)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$$anonfun$foreach$1.apply(VipGroupsFixture.scala:41)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture$$anonfun$foreach$1.apply(VipGroupsFixture.scala:40)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.UserFixture.foreach(UserFixture.scala:30)</div><div>com.evolutiongaming.fixtures.VipGroupsFixture.foreach(VipGroupsFixture.scala:40)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20.apply(PreGameSpec.scala:144)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19$$anonfun$apply$20.apply(PreGameSpec.scala:143)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$4.apply(GameTableFixture.scala:30)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$4.apply(GameTableFixture.scala:29)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.GameTableFixture$TableFixture.foreach(GameTableFixture.scala:35)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(GameTableFixture.scala:29)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(GameTableFixture.scala:21)</div><div>com.evolutiongaming.fixtures.ApiClientFixture.foreach(ApiClientFixture.scala:14)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1.apply(GameTableFixture.scala:21)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1.apply(GameTableFixture.scala:20)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.UserFixture.foreach(UserFixture.scala:30)</div><div>com.evolutiongaming.fixtures.GameTableFixture.foreach(GameTableFixture.scala:20)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19.apply(PreGameSpec.scala:143)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18$$anonfun$apply$19.apply(PreGameSpec.scala:137)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.BlackjackGameConfigFixture.foreach(BlackjackGameConfigFixture.scala:10)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18.apply(PreGameSpec.scala:137)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9$$anonfun$apply$18.apply(PreGameSpec.scala:136)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$2.apply(PlayerFixture.scala:28)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$2.apply(PlayerFixture.scala:26)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.PlayerFixture$CasinoPlayerFixture.foreach(PlayerFixture.scala:32)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(PlayerFixture.scala:26)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(PlayerFixture.scala:25)</div><div>com.evolutiongaming.fixtures.ApiClientFixture.foreach(ApiClientFixture.scala:14)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1.apply(PlayerFixture.scala:25)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1.apply(PlayerFixture.scala:24)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.UserFixture.foreach(UserFixture.scala:30)</div><div>com.evolutiongaming.fixtures.PlayerFixture.foreach(PlayerFixture.scala:24)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9.apply(PreGameSpec.scala:136)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3$$anonfun$apply$mcV$sp$9.apply(PreGameSpec.scala:135)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.CasinoSettingsFixture.foreach(CasinoSettingsFixture.scala:16)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3.apply$mcV$sp(PreGameSpec.scala:135)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3.apply(PreGameSpec.scala:132)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$3.apply(PreGameSpec.scala:132)</div><div>org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)</div><div>org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)</div><div>org.scalatest.Transformer.apply(Transformer.scala:22)</div><div>org.scalatest.Transformer.apply(Transformer.scala:20)</div><div>org.scalatest.WordSpecLike$$anon$1.apply(WordSpecLike.scala:1078)</div><div>org.scalatest.TestSuite$class.withFixture(TestSuite.scala:196)</div><div>com.evolutiongaming.selenium.FunctionalSpec.withFixture(FunctionalSpec.scala:37)</div><div>org.scalatest.WordSpecLike$class.invokeWithFixture$1(WordSpecLike.scala:1075)</div><div>org.scalatest.WordSpecLike$$anonfun$runTest$1.apply(WordSpecLike.scala:1088)</div><div>org.scalatest.WordSpecLike$$anonfun$runTest$1.apply(WordSpecLike.scala:1088)</div><div>org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)</div><div>org.scalatest.WordSpecLike$class.runTest(WordSpecLike.scala:1088)</div><div>org.scalatest.WordSpec.runTest(WordSpec.scala:1881)</div><div>org.scalatest.WordSpecLike$$anonfun$runTests$1.apply(WordSpecLike.scala:1147)</div><div>org.scalatest.WordSpecLike$$anonfun$runTests$1.apply(WordSpecLike.scala:1147)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:396)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:384)</div><div>scala.collection.immutable.List.foreach(List.scala:392)</div><div>org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)</div><div>org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:373)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:410)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:384)</div><div>scala.collection.immutable.List.foreach(List.scala:392)</div><div>org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)</div><div>org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:379)</div><div>org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)</div><div>org.scalatest.WordSpecLike$class.runTests(WordSpecLike.scala:1147)</div><div>org.scalatest.WordSpec.runTests(WordSpec.scala:1881)</div><div>org.scalatest.Suite$class.run(Suite.scala:1147)</div><div>org.scalatest.WordSpec.org$scalatest$WordSpecLike$$super$run(WordSpec.scala:1881)</div><div>org.scalatest.WordSpecLike$$anonfun$run$1.apply(WordSpecLike.scala:1192)</div><div>org.scalatest.WordSpecLike$$anonfun$run$1.apply(WordSpecLike.scala:1192)</div><div>org.scalatest.SuperEngine.runImpl(Engine.scala:521)</div><div>org.scalatest.WordSpecLike$class.run(WordSpecLike.scala:1192)</div><div>com.evolutiongaming.selenium.FunctionalSpec.org$scalatest$BeforeAndAfterAll$$super$run(FunctionalSpec.scala:15)</div><div>org.scalatest.BeforeAndAfterAll$class.liftedTree1$1(BeforeAndAfterAll.scala:213)</div><div>org.scalatest.BeforeAndAfterAll$class.run(BeforeAndAfterAll.scala:210)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec.com$evolutiongaming$selenium$OneBrowserPerSuite$$super$run(PreGameSpec.scala:17)</div><div>com.evolutiongaming.selenium.OneBrowserPerSuite$class.run(OneBrowserPerSuite.scala:13)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec.run(PreGameSpec.scala:17)</div><div>org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)</div><div>org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:480)</div><div>sbt.TestRunner.runTest$1(TestFramework.scala:76)</div><div>sbt.TestRunner.run(TestFramework.scala:85)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)</div><div>sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:185)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)</div><div>sbt.TestFunction.apply(TestFramework.scala:207)</div><div>sbt.Tests$$anonfun$9.apply(Tests.scala:216)</div><div>sbt.Tests$$anonfun$9.apply(Tests.scala:216)</div><div>sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)</div><div>sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)</div><div>sbt.std.Transform$$anon$4.work(System.scala:63)</div><div>sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)</div><div>sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)</div><div>sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)</div><div>sbt.Execute.work(Execute.scala:237)</div><div>sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)</div><div>sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)</div><div>sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)</div><div>sbt.CompletionService$$anon$2.call(CompletionService.scala:28)</div><div>java.util.concurrent.FutureTask.run(FutureTask.java:266)</div><div>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</div><div>java.util.concurrent.FutureTask.run(FutureTask.java:266)</div><div>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</div><div>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</div><div>java.lang.Thread.run(Thread.java:748)</div></td>
+          </tr>
+        </table>
+      </div>
+    </div><div id="74c326fd-3519-4fc7-90da-90c0aba63bc7" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>Given VIP player has joined the Blackjack table with custom bet limits </dt>
+      </dl>
+    </div><div id="4d0904ce-d2b0-4919-a0ef-29c86ca101d0" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then table must have proper currency and limits </dt>
+      </dl>
+    </div><div id="40236885-123d-4ac1-976e-480e32316e68" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>And bets board must have bet limits that correspond to the VIP or table configuration </dt>
+      </dl>
+    </div><div id="d4f2e409-6dda-41f7-b69b-398b8f51943a" class="test_passed" style="margin-left: 0px;">
+      <dl>
+        <dt>must allow player to take a seat and make a main bet</dt>
+      </dl>
+    </div><div id="cc25b674-f3c8-4979-8ae1-ba5055434f4e" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Given player has joined the Blackjack table with a custom chip stack </dt>
+      </dl>
+    </div><div id="1eb2037e-3712-4a8d-b51e-d69e8e10d6ee" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And Game page is open </dt>
+      </dl>
+    </div><div id="c1467800-eba9-4216-83b3-f9c8f9ffb8d1" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then all seats must be free </dt>
+      </dl>
+    </div><div id="6850046e-168a-483b-bf5a-bc96ed0c474a" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player takes a seat </dt>
+      </dl>
+    </div><div id="eb4c03a0-de9b-4eee-9303-ccf23a3fcfd7" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then this seat must become occupied by the player </dt>
+      </dl>
+    </div><div id="99636943-0169-4b25-a4ca-c6a76d1f21cc" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And all other seats must be left free, but not available </dt>
+      </dl>
+    </div><div id="8f04eea9-cbd2-4d7f-b79e-046bce3df0a4" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And player's name must be shown correctly </dt>
+      </dl>
+    </div><div id="437b13b9-c9e3-49c9-9b2a-7437336a0cc1" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And all chips must be visible </dt>
+      </dl>
+    </div><div id="dcbe4bcc-9bda-4dfd-bbc4-cc3d48b8cd33" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And only chips exceeding the balance are disabled </dt>
+      </dl>
+    </div><div id="f70bd58f-2b7c-4380-8e7a-7ec1fcaf9e11" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And traffic light must inform player when to place a bet </dt>
+      </dl>
+    </div><div id="a805bbc2-5298-4cb3-865f-cc7c8b7eece7" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player makes a main bet </dt>
+      </dl>
+    </div><div id="da29fee8-9901-43c6-8b6c-2ddf5567bfa6" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then main bet at his seat must have correct value </dt>
+      </dl>
+    </div><div id="5c886b95-6743-44be-9d34-94c3b8e2d730" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And player must have current bet and balance changed </dt>
+      </dl>
+    </div><div id="62c49225-8549-4aec-80bd-8c9a68568cc8" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And he must able to undo or double his bet </dt>
+      </dl>
+    </div><div id="2af23f30-84da-48f3-b117-2559a78a7bc2" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player doubles his bet </dt>
+      </dl>
+    </div><div id="717dbc0e-2f0b-4c87-a772-5bdf891cde4e" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then his bet must be doubled and balance adjusted accordingly </dt>
+      </dl>
+    </div><div id="a2e485ba-fe66-42f7-b156-6aac0dafb3f7" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player undoes his bet doubling </dt>
+      </dl>
+    </div><div id="87979828-b65e-4b64-8f04-69e9317b4caf" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then he must have his bet and his balance back </dt>
+      </dl>
+    </div><div id="b7d8500f-fc7a-4c1e-89d9-e55384be28e9" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player undoes his bet </dt>
+      </dl>
+    </div><div id="e6062301-47be-494f-86b7-1119bf598cf0" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then his bet and balance must be back to initial values </dt>
+      </dl>
+    </div><div id="2fc21409-d4fe-4aa4-87ef-92171ea30b79" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player leaves his seat </dt>
+      </dl>
+    </div><div id="c6955608-4508-43dc-82fe-985d842e164e" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then seat must be free and all other seats must still be free </dt>
+      </dl>
+    </div><div id="60260ae8-6bfd-4c99-ac11-72688548a7e5" class="test_failed" style="margin-left: 0px;">
+      <dl>
+        <dt>must allow player to make bets only when bet limit conditions are satisfied *** FAILED ***</dt>
+      </dl>
+      <div class="detailstoggle">
+      <a id="ed425fce-41b2-43fb-a973-c4bca88f9f04" href="javascript:toggleDetails('3d0f4a03-7e06-43ca-845d-eecc562b4854', 'ed425fce-41b2-43fb-a973-c4bca88f9f04');">(Show Details)</a>
+      </div>
+      <div id="3d0f4a03-7e06-43ca-845d-eecc562b4854" style="display: none">
+        <table>
+          <tr valign="top">
+              <td align="left"><span class="label">Message:</span></td>
+              <td align="left"><span>The code passed to eventually never returned normally. Attempted 26 times over 20.846047892 seconds. Last failure message: Set(&quot;&quot;) did not contain element &quot;MAXIMUM BET: 300&quot;.</span></td>
+            </tr>
+          <tr valign="top"><td align="left"><span class="label">Line:</span></td><td align="left"><span>(PreGameSpec.scala:23)</span></td></tr>
+          <tr valign="top"><td align="right"><span class="label">Exception:</span></td><td align="left">org.scalatest.exceptions.TestFailedDueToTimeoutException</td></tr>
+        </table>
+        <table>
+          <tr valign="top"><td align="left" colspan="2">
+            <div class="gray">org.scalatest.concurrent.Eventually$class.tryTryAgain$1(Eventually.scala:421)</div><div class="gray">org.scalatest.concurrent.Eventually$class.eventually(Eventually.scala:439)</div><div class="gray">com.evolutiongaming.selenium.FunctionalSpec.eventually(FunctionalSpec.scala:15)</div>
+            <div>com.evolutiongaming.tests.blackjack.PreGameSpec$TooltipMessagesWrapper.expect(PreGameSpec.scala:23)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43$$anonfun$apply$44$$anonfun$apply$45$$anonfun$apply$46.apply(PreGameSpec.scala:395)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43$$anonfun$apply$44$$anonfun$apply$45$$anonfun$apply$46.apply(PreGameSpec.scala:305)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture$$anonfun$foreach$1.apply(PlayerSessionFixture.scala:22)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture$$anonfun$foreach$1.apply(PlayerSessionFixture.scala:18)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture$SessionFixture.foreach(PlayerSessionFixture.scala:25)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture.foreach(PlayerSessionFixture.scala:18)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43$$anonfun$apply$44$$anonfun$apply$45.apply(PreGameSpec.scala:305)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43$$anonfun$apply$44$$anonfun$apply$45.apply(PreGameSpec.scala:304)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$4.apply(GameTableFixture.scala:30)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$4.apply(GameTableFixture.scala:29)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.GameTableFixture$TableFixture.foreach(GameTableFixture.scala:35)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(GameTableFixture.scala:29)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(GameTableFixture.scala:21)</div><div>com.evolutiongaming.fixtures.ApiClientFixture.foreach(ApiClientFixture.scala:14)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1.apply(GameTableFixture.scala:21)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1.apply(GameTableFixture.scala:20)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.UserFixture.foreach(UserFixture.scala:30)</div><div>com.evolutiongaming.fixtures.GameTableFixture.foreach(GameTableFixture.scala:20)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43$$anonfun$apply$44.apply(PreGameSpec.scala:304)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43$$anonfun$apply$44.apply(PreGameSpec.scala:298)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.BlackjackGameConfigFixture.foreach(BlackjackGameConfigFixture.scala:10)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43.apply(PreGameSpec.scala:298)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43.apply(PreGameSpec.scala:297)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$2.apply(PlayerFixture.scala:28)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$2.apply(PlayerFixture.scala:26)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.PlayerFixture$CasinoPlayerFixture.foreach(PlayerFixture.scala:32)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(PlayerFixture.scala:26)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(PlayerFixture.scala:25)</div><div>com.evolutiongaming.fixtures.ApiClientFixture.foreach(ApiClientFixture.scala:14)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1.apply(PlayerFixture.scala:25)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1.apply(PlayerFixture.scala:24)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.UserFixture.foreach(UserFixture.scala:30)</div><div>com.evolutiongaming.fixtures.PlayerFixture.foreach(PlayerFixture.scala:24)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11.apply(PreGameSpec.scala:297)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11.apply(PreGameSpec.scala:296)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.CasinoSettingsFixture.foreach(CasinoSettingsFixture.scala:16)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5.apply$mcV$sp(PreGameSpec.scala:296)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5.apply(PreGameSpec.scala:293)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5.apply(PreGameSpec.scala:293)</div><div>org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)</div><div>org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)</div><div>org.scalatest.Transformer.apply(Transformer.scala:22)</div><div>org.scalatest.Transformer.apply(Transformer.scala:20)</div><div>org.scalatest.WordSpecLike$$anon$1.apply(WordSpecLike.scala:1078)</div><div>org.scalatest.TestSuite$class.withFixture(TestSuite.scala:196)</div><div>com.evolutiongaming.selenium.FunctionalSpec.withFixture(FunctionalSpec.scala:37)</div><div>org.scalatest.WordSpecLike$class.invokeWithFixture$1(WordSpecLike.scala:1075)</div><div>org.scalatest.WordSpecLike$$anonfun$runTest$1.apply(WordSpecLike.scala:1088)</div><div>org.scalatest.WordSpecLike$$anonfun$runTest$1.apply(WordSpecLike.scala:1088)</div><div>org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)</div><div>org.scalatest.WordSpecLike$class.runTest(WordSpecLike.scala:1088)</div><div>org.scalatest.WordSpec.runTest(WordSpec.scala:1881)</div><div>org.scalatest.WordSpecLike$$anonfun$runTests$1.apply(WordSpecLike.scala:1147)</div><div>org.scalatest.WordSpecLike$$anonfun$runTests$1.apply(WordSpecLike.scala:1147)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:396)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:384)</div><div>scala.collection.immutable.List.foreach(List.scala:392)</div><div>org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)</div><div>org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:373)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:410)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:384)</div><div>scala.collection.immutable.List.foreach(List.scala:392)</div><div>org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)</div><div>org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:379)</div><div>org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)</div><div>org.scalatest.WordSpecLike$class.runTests(WordSpecLike.scala:1147)</div><div>org.scalatest.WordSpec.runTests(WordSpec.scala:1881)</div><div>org.scalatest.Suite$class.run(Suite.scala:1147)</div><div>org.scalatest.WordSpec.org$scalatest$WordSpecLike$$super$run(WordSpec.scala:1881)</div><div>org.scalatest.WordSpecLike$$anonfun$run$1.apply(WordSpecLike.scala:1192)</div><div>org.scalatest.WordSpecLike$$anonfun$run$1.apply(WordSpecLike.scala:1192)</div><div>org.scalatest.SuperEngine.runImpl(Engine.scala:521)</div><div>org.scalatest.WordSpecLike$class.run(WordSpecLike.scala:1192)</div><div>com.evolutiongaming.selenium.FunctionalSpec.org$scalatest$BeforeAndAfterAll$$super$run(FunctionalSpec.scala:15)</div><div>org.scalatest.BeforeAndAfterAll$class.liftedTree1$1(BeforeAndAfterAll.scala:213)</div><div>org.scalatest.BeforeAndAfterAll$class.run(BeforeAndAfterAll.scala:210)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec.com$evolutiongaming$selenium$OneBrowserPerSuite$$super$run(PreGameSpec.scala:17)</div><div>com.evolutiongaming.selenium.OneBrowserPerSuite$class.run(OneBrowserPerSuite.scala:13)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec.run(PreGameSpec.scala:17)</div><div>org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)</div><div>org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:480)</div><div>sbt.TestRunner.runTest$1(TestFramework.scala:76)</div><div>sbt.TestRunner.run(TestFramework.scala:85)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)</div><div>sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:185)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)</div><div>sbt.TestFunction.apply(TestFramework.scala:207)</div><div>sbt.Tests$$anonfun$9.apply(Tests.scala:216)</div><div>sbt.Tests$$anonfun$9.apply(Tests.scala:216)</div><div>sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)</div><div>sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)</div><div>sbt.std.Transform$$anon$4.work(System.scala:63)</div><div>sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)</div><div>sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)</div><div>sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)</div><div>sbt.Execute.work(Execute.scala:237)</div><div>sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)</div><div>sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)</div><div>sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)</div><div>sbt.CompletionService$$anon$2.call(CompletionService.scala:28)</div><div>java.util.concurrent.FutureTask.run(FutureTask.java:266)</div><div>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</div><div>java.util.concurrent.FutureTask.run(FutureTask.java:266)</div><div>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</div><div>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</div><div>java.lang.Thread.run(Thread.java:748)</div>
+            </td>
+          </tr>
+        </table>
+        <table>
+          <tr valign="top">
+            <td align="right"><span class="label">Cause:</span></td>
+            <td align="left">org.scalatest.exceptions.TestFailedException</td>
+          </tr>
+          <tr valign="top">
+            <td align="right"><span class="label">Message:</span></td>
+            <td align="left">
+              <span>The code passed to eventually never returned normally. Attempted 26 times over 20.846047892 seconds. Last failure message: Set(&quot;&quot;) did not contain element &quot;MAXIMUM BET: 300&quot;.</span>
+            </td>
+          </tr>
+        </table><table>
+          <tr valign="top">
+            <td align="left" colspan="2"><div>org.scalatest.MatchersHelper$.indicateFailure(MatchersHelper.scala:340)</div><div>org.scalatest.MustMatchers$MustMethodHelper$.mustMatcher(MustMatchers.scala:6668)</div><div>org.scalatest.MustMatchers$AnyMustWrapper.must(MustMatchers.scala:6716)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$TooltipMessagesWrapper$$anonfun$expect$1.apply(PreGameSpec.scala:25)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$TooltipMessagesWrapper$$anonfun$expect$1.apply(PreGameSpec.scala:23)</div><div>org.scalatest.concurrent.Eventually$class.makeAValiantAttempt$1(Eventually.scala:395)</div><div>org.scalatest.concurrent.Eventually$class.tryTryAgain$1(Eventually.scala:409)</div><div>org.scalatest.concurrent.Eventually$class.eventually(Eventually.scala:439)</div><div>com.evolutiongaming.selenium.FunctionalSpec.eventually(FunctionalSpec.scala:15)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$TooltipMessagesWrapper.expect(PreGameSpec.scala:23)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43$$anonfun$apply$44$$anonfun$apply$45$$anonfun$apply$46.apply(PreGameSpec.scala:395)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43$$anonfun$apply$44$$anonfun$apply$45$$anonfun$apply$46.apply(PreGameSpec.scala:305)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture$$anonfun$foreach$1.apply(PlayerSessionFixture.scala:22)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture$$anonfun$foreach$1.apply(PlayerSessionFixture.scala:18)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture$SessionFixture.foreach(PlayerSessionFixture.scala:25)</div><div>com.evolutiongaming.fixtures.PlayerSessionFixture.foreach(PlayerSessionFixture.scala:18)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43$$anonfun$apply$44$$anonfun$apply$45.apply(PreGameSpec.scala:305)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43$$anonfun$apply$44$$anonfun$apply$45.apply(PreGameSpec.scala:304)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$4.apply(GameTableFixture.scala:30)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$4.apply(GameTableFixture.scala:29)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.GameTableFixture$TableFixture.foreach(GameTableFixture.scala:35)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(GameTableFixture.scala:29)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(GameTableFixture.scala:21)</div><div>com.evolutiongaming.fixtures.ApiClientFixture.foreach(ApiClientFixture.scala:14)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1.apply(GameTableFixture.scala:21)</div><div>com.evolutiongaming.fixtures.GameTableFixture$$anonfun$foreach$1.apply(GameTableFixture.scala:20)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.UserFixture.foreach(UserFixture.scala:30)</div><div>com.evolutiongaming.fixtures.GameTableFixture.foreach(GameTableFixture.scala:20)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43$$anonfun$apply$44.apply(PreGameSpec.scala:304)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43$$anonfun$apply$44.apply(PreGameSpec.scala:298)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.BlackjackGameConfigFixture.foreach(BlackjackGameConfigFixture.scala:10)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43.apply(PreGameSpec.scala:298)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11$$anonfun$apply$43.apply(PreGameSpec.scala:297)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$2.apply(PlayerFixture.scala:28)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1$$anonfun$apply$2.apply(PlayerFixture.scala:26)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.PlayerFixture$CasinoPlayerFixture.foreach(PlayerFixture.scala:32)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(PlayerFixture.scala:26)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1$$anonfun$apply$1.apply(PlayerFixture.scala:25)</div><div>com.evolutiongaming.fixtures.ApiClientFixture.foreach(ApiClientFixture.scala:14)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1.apply(PlayerFixture.scala:25)</div><div>com.evolutiongaming.fixtures.PlayerFixture$$anonfun$foreach$1.apply(PlayerFixture.scala:24)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.UserFixture.foreach(UserFixture.scala:30)</div><div>com.evolutiongaming.fixtures.PlayerFixture.foreach(PlayerFixture.scala:24)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11.apply(PreGameSpec.scala:297)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$mcV$sp$11.apply(PreGameSpec.scala:296)</div><div>com.evolutiongaming.fixtures.CreateCleanFixture$class.foreach(Fixture.scala:64)</div><div>com.evolutiongaming.fixtures.CasinoSettingsFixture.foreach(CasinoSettingsFixture.scala:16)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5.apply$mcV$sp(PreGameSpec.scala:296)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5.apply(PreGameSpec.scala:293)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec$$anonfun$1$$anonfun$apply$mcV$sp$5.apply(PreGameSpec.scala:293)</div><div>org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)</div><div>org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)</div><div>org.scalatest.Transformer.apply(Transformer.scala:22)</div><div>org.scalatest.Transformer.apply(Transformer.scala:20)</div><div>org.scalatest.WordSpecLike$$anon$1.apply(WordSpecLike.scala:1078)</div><div>org.scalatest.TestSuite$class.withFixture(TestSuite.scala:196)</div><div>com.evolutiongaming.selenium.FunctionalSpec.withFixture(FunctionalSpec.scala:37)</div><div>org.scalatest.WordSpecLike$class.invokeWithFixture$1(WordSpecLike.scala:1075)</div><div>org.scalatest.WordSpecLike$$anonfun$runTest$1.apply(WordSpecLike.scala:1088)</div><div>org.scalatest.WordSpecLike$$anonfun$runTest$1.apply(WordSpecLike.scala:1088)</div><div>org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)</div><div>org.scalatest.WordSpecLike$class.runTest(WordSpecLike.scala:1088)</div><div>org.scalatest.WordSpec.runTest(WordSpec.scala:1881)</div><div>org.scalatest.WordSpecLike$$anonfun$runTests$1.apply(WordSpecLike.scala:1147)</div><div>org.scalatest.WordSpecLike$$anonfun$runTests$1.apply(WordSpecLike.scala:1147)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:396)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:384)</div><div>scala.collection.immutable.List.foreach(List.scala:392)</div><div>org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)</div><div>org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:373)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:410)</div><div>org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:384)</div><div>scala.collection.immutable.List.foreach(List.scala:392)</div><div>org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)</div><div>org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:379)</div><div>org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)</div><div>org.scalatest.WordSpecLike$class.runTests(WordSpecLike.scala:1147)</div><div>org.scalatest.WordSpec.runTests(WordSpec.scala:1881)</div><div>org.scalatest.Suite$class.run(Suite.scala:1147)</div><div>org.scalatest.WordSpec.org$scalatest$WordSpecLike$$super$run(WordSpec.scala:1881)</div><div>org.scalatest.WordSpecLike$$anonfun$run$1.apply(WordSpecLike.scala:1192)</div><div>org.scalatest.WordSpecLike$$anonfun$run$1.apply(WordSpecLike.scala:1192)</div><div>org.scalatest.SuperEngine.runImpl(Engine.scala:521)</div><div>org.scalatest.WordSpecLike$class.run(WordSpecLike.scala:1192)</div><div>com.evolutiongaming.selenium.FunctionalSpec.org$scalatest$BeforeAndAfterAll$$super$run(FunctionalSpec.scala:15)</div><div>org.scalatest.BeforeAndAfterAll$class.liftedTree1$1(BeforeAndAfterAll.scala:213)</div><div>org.scalatest.BeforeAndAfterAll$class.run(BeforeAndAfterAll.scala:210)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec.com$evolutiongaming$selenium$OneBrowserPerSuite$$super$run(PreGameSpec.scala:17)</div><div>com.evolutiongaming.selenium.OneBrowserPerSuite$class.run(OneBrowserPerSuite.scala:13)</div><div>com.evolutiongaming.tests.blackjack.PreGameSpec.run(PreGameSpec.scala:17)</div><div>org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)</div><div>org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:480)</div><div>sbt.TestRunner.runTest$1(TestFramework.scala:76)</div><div>sbt.TestRunner.run(TestFramework.scala:85)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)</div><div>sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:185)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)</div><div>sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)</div><div>sbt.TestFunction.apply(TestFramework.scala:207)</div><div>sbt.Tests$$anonfun$9.apply(Tests.scala:216)</div><div>sbt.Tests$$anonfun$9.apply(Tests.scala:216)</div><div>sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)</div><div>sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)</div><div>sbt.std.Transform$$anon$4.work(System.scala:63)</div><div>sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)</div><div>sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)</div><div>sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)</div><div>sbt.Execute.work(Execute.scala:237)</div><div>sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)</div><div>sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)</div><div>sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)</div><div>sbt.CompletionService$$anon$2.call(CompletionService.scala:28)</div><div>java.util.concurrent.FutureTask.run(FutureTask.java:266)</div><div>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</div><div>java.util.concurrent.FutureTask.run(FutureTask.java:266)</div><div>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</div><div>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</div><div>java.lang.Thread.run(Thread.java:748)</div></td>
+          </tr>
+        </table>
+      </div>
+    </div><div id="cc611210-c4c3-4ff1-bb20-880e21f27bb9" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>Given player has joined the Blackjack table with custom bet limits </dt>
+      </dl>
+    </div><div id="49529cbf-a96b-429a-8cd4-c001f30118ad" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>And Game page is open </dt>
+      </dl>
+    </div><div id="8dc1b64c-8608-4477-9665-d77000dea112" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player takes a seat </dt>
+      </dl>
+    </div><div id="33a19fe1-efc0-4cd5-a6b5-89ff9a6de3d7" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then main bet spot must be available for placing bets </dt>
+      </dl>
+    </div><div id="a4c83b5d-8f53-40c2-9932-79bd67aca7bb" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player wants to make side bets first </dt>
+      </dl>
+    </div><div id="4a0e6a96-a8c6-4425-8ef6-94c0e62610cb" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then he must be informed that he should make a min main bet first </dt>
+      </dl>
+    </div><div id="f3461bdd-416b-4781-9a1c-4fc3bfd6135c" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>And side bets must not be available for placing bets yet </dt>
+      </dl>
+    </div><div id="54dfa2eb-c7e6-4123-820d-1807567de4b3" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player makes a bet, but it's lower than corresponding limit </dt>
+      </dl>
+    </div><div id="e59f2a36-a7a3-4619-9efe-b44ec541f7c5" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then side bets must still not be available for placing bets </dt>
+      </dl>
+    </div><div id="87240cc7-aa5e-4291-a82f-5781e0e5d04a" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>And player must be informed that his main bet is insufficient </dt>
+      </dl>
+    </div><div id="42990e7b-96dd-4322-8571-32a918dea45c" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player wants to make side bets first </dt>
+      </dl>
+    </div><div id="bb0a6078-1b94-41e6-8163-0f9d77340bb6" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then he must be informed that he can't make side bets yet </dt>
+      </dl>
+    </div><div id="c8e8cd90-81c5-494d-8026-840502258e9c" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player makes a min sufficient main bet </dt>
+      </dl>
+    </div><div id="8f21b0e2-d850-4d18-98fb-f0c8dcd22088" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then side bets must become available </dt>
+      </dl>
+    </div><div id="3fcad985-077a-4bbb-9037-207d57754903" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player makes main bets </dt>
+      </dl>
+    </div><div id="9ff9875c-5687-49f4-83e1-eb3b96eb8da0" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then he must be able to do so, but up to a limit </dt>
+      </dl>
+    </div><div id="c2be1352-6a97-4b5e-8a21-3b411f028feb" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player wants to make a main bet over the limit </dt>
+      </dl>
+    </div><div id="7627a04e-e443-4834-8fe8-7474b317ce1c" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then chip is not placed on the bet spot and stays the same </dt>
+      </dl>
+    </div><div id="acdacc53-61e8-4c57-a05f-49e12fe944f4" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>And player must be informed that he exceeded the max main bet limit </dt>
+      </dl>
+    </div><div id="95cab50b-3e98-41e8-868e-c003ab3d8bdc" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>And balance and total bet are not updated </dt>
+      </dl>
+    </div><div id="fd699cc4-fc0d-4357-b00d-a5b5f1b02d1c" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>When makes a main bet that is much higher than upper limit </dt>
+      </dl>
+    </div><div id="8d7d3bdb-fc2e-4e41-8907-395ff907c706" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then chip is placed on the main bet spot, but it's cut to fit into the limit </dt>
+      </dl>
+    </div><div id="53a2cb26-536f-44e6-82c1-61d62eae5d85" class="test_failed" style="margin-left: 15px;">
+      <dl>
+        <dt>And player must be informed that he exceeded the max main bet limit </dt>
+      </dl>
+    </div><div id="0a967045-4d63-4f02-9f22-95fb3456dcdb" class="test_passed" style="margin-left: 0px;">
+      <dl>
+        <dt>must allow player to take multiple seats, but up to a seat limit, make main and side bets</dt>
+      </dl>
+    </div><div id="39daa9ca-2c19-4eec-b586-77d5275f1e8e" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Given player has joined the Blackjack table with a custom seat limit </dt>
+      </dl>
+    </div><div id="3580e93d-440c-4e79-819a-6a9d1ea3c2a9" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And Game page is open </dt>
+      </dl>
+    </div><div id="8dfd13b1-1a84-4b98-9311-e4d5bad7ae72" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then all seats must show 'Sit Here' </dt>
+      </dl>
+    </div><div id="f6fb95fb-83ac-4c92-886c-e760d5c229a6" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player takes a seat </dt>
+      </dl>
+    </div><div id="0bfa8c44-8506-4009-b53e-4527adddd92e" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then all other seats must show 'Multi Seat' </dt>
+      </dl>
+    </div><div id="62b8335e-8aca-411d-9fa6-5de6c3ff08f2" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player takes two additional seats </dt>
+      </dl>
+    </div><div id="199279e0-2d50-4aaa-8d65-9eaf55ce24d4" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And makes a main bet at any seat </dt>
+      </dl>
+    </div><div id="70c84cbd-eba5-4a0b-a418-eb7245ac2821" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then all these seats must be occupied by player and show his name </dt>
+      </dl>
+    </div><div id="656591d6-60d3-4068-b8cd-b5c90c2cb88a" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And all player's seats must have the same main bet </dt>
+      </dl>
+    </div><div id="fd863896-2df4-43da-b6fc-7ea0b09c4322" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player takes some other seats </dt>
+      </dl>
+    </div><div id="0cbbfb15-6d5d-4a23-a786-6737ac52bf39" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then these seats must also have the same main bet </dt>
+      </dl>
+    </div><div id="a0eca263-6140-402b-b3a2-6800a5f5a3a5" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And all other seats must be free, but not available </dt>
+      </dl>
+    </div><div id="0e8f1fd6-c4e3-43c5-bc41-dc28cee038c9" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>When player makes side bets at different seats </dt>
+      </dl>
+    </div><div id="bae88e19-c24e-4661-aad5-624a81b2121d" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>Then these side bets must be shown at corresponding places </dt>
+      </dl>
+    </div><div id="e5376f79-c287-4897-9787-4a938cd28ec5" class="test_passed" style="margin-left: 15px;">
+      <dl>
+        <dt>And all other side bets must be empty </dt>
+      </dl>
+    </div>
+        <table id="suite_footer">
+          <tr id="suite_footer_id">
+            <td id="suite_footer_id_label_failed">Suite ID</td>
+            <td id="suite_footer_id_value" colspan="5">com.evolutiongaming.tests.blackjack.PreGameSpec</td>
+          </tr>
+          <tr id="suite_footer_class">
+            <td id="suite_footer_class_label_failed">Class name</td>
+            <td id="suite_footer_class_value" colspan="5">com.evolutiongaming.tests.blackjack.PreGameSpec</td>
+          </tr>
+          <tr id="suite_footer_duration">
+            <td id="suite_footer_duration_label_failed">Total duration</td>
+            <td id="suite_footer_duration_value" colspan="2">
+              2 minutes, 23 seconds
+              </td>
+          </tr>
+        </table>
+           <div id="printlink">(<a href="com.evolutiongaming.tests.blackjack.PreGameSpec.html" target="_blank">Open PreGameSpec in new tab</a>)</div>
+      </body>
+      <script type="text/javascript">
+        hideOpenInNewTabIfRequired();
+      </script>
+    </html>
